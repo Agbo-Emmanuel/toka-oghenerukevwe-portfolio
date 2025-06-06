@@ -161,3 +161,17 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
+
+.about_link_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about_icon{
+    margin-left: 6px;
+    font-size: 28px;
+    color: green;
+}
