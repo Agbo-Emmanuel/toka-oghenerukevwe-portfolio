@@ -295,7 +295,6 @@
 
 .contact_text_container{
     width: 50%;
-    height: 200px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -427,6 +426,19 @@
 
     .core_competence_card p{
         line-height: 22px;
+    }
+
+    .contact_section{
+        padding: 30px 30px;
+    }
+
+    .contact_image{
+        display: none;
+    }
+
+    .contact_text_container{
+        width: 100%;
+        align-items: center;
     }
 
 }
