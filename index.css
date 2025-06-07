@@ -202,3 +202,41 @@
     font-size: 28px;
     color: #fff;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .header_container{
+        padding: 24px 16px;
+    }
+
+    .header_nav_container{
+        display: none;
+    }
+
+    .hero_content_container{
+        padding: 30px 16px;
+        flex-direction: column-reverse;
+    }
+
+    .hero_content_text_container{
+        width: 100%;
+    }
+
+    .hero_content_image{
+        width: 100%;
+        height: 380px;
+    }
+
+    .hero_content_text_container h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero_content_text_container p{
+        font-size: 15px;
+    }
+
+}
