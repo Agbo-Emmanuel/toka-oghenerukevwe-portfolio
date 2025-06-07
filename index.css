@@ -227,7 +227,7 @@
 
     .hero_content_image{
         width: 100%;
-        height: 380px;
+        height: 400px;
     }
 
     .hero_content_text_container h1{
@@ -237,6 +237,10 @@
 
     .hero_content_text_container p{
         font-size: 15px;
+    }
+
+    .hero_content_btn_container{
+        margin-top: 10px;
     }
 
 }
